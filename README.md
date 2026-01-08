@@ -1,4 +1,4 @@
-# AI Screenshot Renamer
+# Screenshout: AI screenshot renamer
 
 Automatically renames your screenshots using AI (OpenAI GPT-4 Vision). 
 It watches your screenshots folder, analyzes new images, and gives them descriptive filenames like `2024-01-08_github-pull-request-review.png`.
