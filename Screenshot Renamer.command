@@ -11,7 +11,7 @@ SCREENSHOTS_FOLDER="$HOME/Documents/Screenshots"
 
 # Load API Key from .env file if it exists
 if [ -f "$SCRIPT_DIR/.env" ]; then
-    export $(cat "$SCRIPT_DIR/.env" | xargs)
+    export $(grep -v '^#' "$SCRIPT_DIR/.env" | xargs)
 fi
 
 # Check for API Key
