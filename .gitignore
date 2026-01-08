@@ -1,0 +1,15 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# App specific
+.renamer.pid
+*.log
