@@ -46,8 +46,13 @@ python3 renamer.py ~/Documents/Screenshots --watch
 
 ### Run via Double-Click (macOS)
 1.  Make the script executable: `chmod +x "Screenshot Renamer.command"`
-2.  Double-click **Screenshot Renamer.command** to start watching.
-3.  Double-click it again to stop the background process.
+2.  Open **Screenshot Renamer.command** in a text editor.
+3.  Update the `SCREENSHOTS_FOLDER` variable to point to your screenshots folder (e.g., `"$HOME/Desktop"`):
+    ```bash
+    SCREENSHOTS_FOLDER="$HOME/Desktop"
+    ```
+4.  Double-click **Screenshot Renamer.command** to start watching.
+5.  Double-click it again to stop the background process.
 
 ## Customization
 You can modify `renamer.py` to change the AI prompt or naming convention.
