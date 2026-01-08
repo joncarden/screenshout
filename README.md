@@ -16,8 +16,8 @@ It also adds the full AI description to the file's metadata (Finder comments), m
 
 1.  **Clone the repo**:
     ```bash
-    git clone https://github.com/yourusername/screenshot-renamer.git
-    cd screenshot-renamer
+    git clone https://github.com/joncarden/screenshout.git
+    cd screenshout
     ```
 
 2.  **Create a Virtual Environment**:
